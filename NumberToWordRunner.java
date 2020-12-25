@@ -1,4 +1,4 @@
-
+//Upto four digits only
 class NumberToWord {
 	private int number;
 
