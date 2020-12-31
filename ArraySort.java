@@ -21,11 +21,7 @@ public class ArraySort {
 				}
 			}
 		}
-		System.out.println("Sorted integers in Ascending Order");
-		for (int i = 0; i < n; i++) {
-			System.out.print(" , ");
-			System.out.print(arr[i]);
-		}
+		System.out.println("Second Highest number: " + arr[arr.length - 2]);
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				int tmp = 0;
@@ -37,10 +33,7 @@ public class ArraySort {
 			}
 		}
 		System.out.println();
-		System.out.println("Sorted integers in descending order");
-		for (int i = 0; i < n; i++) {
-			System.out.print(" , ");
-			System.out.print(arr[i]);
-		}
+		System.out.println("Second Lowest number is: " + arr[arr.length - 2]);
+
 	}
 }
